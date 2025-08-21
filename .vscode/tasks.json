@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Clean obj and bin folders",
+			"type": "shell",
+			"command": "rm -rf obj bin",
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}
